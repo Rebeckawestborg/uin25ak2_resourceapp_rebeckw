@@ -1,0 +1,57 @@
+$font-primary: 'Montserrat', 'Roboto', sans-serif;
+$bg-color: #E1E5EE;
+$text-color: #2A324B;
+$nav-bg: #2A324B;
+$button-text: #fff;
+$main-bg: #fff;
+
+body {
+    font-family: $font-primary;
+    background-color: $bg-color;
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: $nav-bg;
+    padding: 0.5rem 1rem;
+
+    button {
+        background-color: transparent;
+        border: none;
+        color: $button-text;
+        font-size: 1rem;
+        padding: 1rem;
+        margin: 0 0.5rem;
+    }
+}
+
+main {
+    background-color: $main-bg;
+    padding: 2rem;
+    width: 100%;
+}
+
+article {
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        padding-left: 1.5rem;
+    }
+}
